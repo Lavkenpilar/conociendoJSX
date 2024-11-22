@@ -40,12 +40,21 @@ const Producto = () => {
   )
 } */
 /* aplicando destructuring de las propiedades props*/
-const Producto = ({title, price}) => {
+/*const Producto = ({title, price}) => {
   return (
     <>
     <h1 className='producto'>{title}</h1> 
     <p>Precio:{price}</p>
     </>
   )
+}*/
+const Producto = ({title='Titulo por defecto', price = '0'}) =>{
+  return (
+    <>
+    <h1 className='producto'>{title}</h1>
+    <p>Precio:{price}</p>
+    </>
+  )
 }
+
 export default Producto

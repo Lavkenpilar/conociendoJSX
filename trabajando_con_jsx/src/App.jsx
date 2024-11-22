@@ -7,6 +7,7 @@ import Producto from './components/Producto'
 function App() {
 return (
   <>
+  <Producto/>
   <Producto title="Producto1" price = "400"/>
   <Producto title="Producto2"price = "700"/>
   <Producto title="Producto3"price = "1000"/>
