@@ -8,9 +8,9 @@ function App() {
 return (
   <>
   <Producto/>
-  <Producto title="Producto1" price = "400"/>
-  <Producto title="Producto2"price = "700"/>
-  <Producto title="Producto3"price = "1000"/>
+  <Producto title="Frutilla" price = "400" stock = "0"/>
+  <Producto title="Maracuyá"price = "700" stock = "10"/>
+  <Producto title="Durazno"price = "1000" stock = "20"/>
   </>
 )
   /*elementos utilizados para el ejemplo de agregar estilos

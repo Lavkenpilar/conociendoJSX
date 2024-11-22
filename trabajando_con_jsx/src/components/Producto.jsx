@@ -48,11 +48,12 @@ const Producto = () => {
     </>
   )
 }*/
-const Producto = ({title='Titulo por defecto', price = '0'}) =>{
+/* props destructuring con valores por defecto*/
+const Producto = ({title='Titulo por defecto', price = '1000', stock}) =>{
   return (
     <>
     <h1 className='producto'>{title}</h1>
-    <p>Precio:{price}</p>
+    <p className= {stock <= 0 ? 'sinStock':null}> {title} - Precio:{price} <span>stock:{stock}</span></p>
     </>
   )
 }

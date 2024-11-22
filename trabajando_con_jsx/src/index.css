@@ -70,3 +70,6 @@ button:focus-visible {
   font-size: 32px;
   color: red;
 }
+.sinStock {
+  text-decoration: line-through;
+}
